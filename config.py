@@ -44,7 +44,7 @@ LLM_API_LIST = {
     # Ollama API
     "Ollama": {
         "api_base": OLLAMA_API_URL,
-        "models": [],
+        "models": ["gemma3:12b"],
         "provider": "Ollama",
     },
     # OpenAI API
